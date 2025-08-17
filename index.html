@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Royal Challengers Bengaluru</title>
+    <link rel="icon" type="image/png" href="https://images.seeklogo.com/logo-png/53/2/rcb-logo-png_seeklogo-531612.png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;900&family=Oswald:wght@700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Header -->
+    <header class="header">
+        <nav class="navbar container">
+            <a href="#" class="logo-link">
+                <img src="https://1000logos.net/wp-content/uploads/2024/03/Royal-Challengers-Bengaluru-Logo.png" alt="RCB Logo" class="logo">
+            </a>
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#team">Team</a></li>
+                <li><a href="#rcb-tv">RCB TV</a></li>
+                <li><a href="#schedule">Schedule</a></li>
+                <li><a href="#news">News</a></li>
+                <li><a href="#shop">Shop</a></li>
+                <li class="mobile-only-links">
+                    <!-- Mobile social + app -->
+                </li>
+            </ul>
+            <div class="header-right">
+                <!-- Desktop social + app -->
+            </div>
+            <div class="hamburger">
+                <div class="line1"></div>
+                <div class="line2"></div>
+                <div class="line3"></div>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Main -->
+    <main>
+        <!-- Hero -->
+        <section id="home" class="hero">
+            <div class="hero-overlay"></div>
+            <div class="hero-image-top"></div>
+            <div class="hero-image-bottom"></div>
+            <div class="hero-content">
+                <h1>Welcome to the Home of Champions</h1>
+                <p>The official hub for the 12th Man Army. Get the latest scores, news, and updates on Royal Challengers Bengaluru.</p>
+            </div>
+        </section>
+
+        <!-- Team -->
+        <section id="team">
+            <div class="container">
+                <h2 class="section-title">Meet The Squad</h2>
+                <div class="team-selection">
+                    <button class="team-btn active" data-team="men">Men's Team</button>
+                    <button class="team-btn" data-team="women">Women's Team</button>
+                </div>
+                <div class="team-filters">
+                    <button class="filter-btn active" data-filter="all">All Players</button>
+                    <button class="filter-btn" data-filter="Batter">Batters</button>
+                    <button class="filter-btn" data-filter="Bowler">Bowlers</button>
+                    <button class="filter-btn" data-filter="All-Rounder">All-Rounders</button>
+                    <button class="filter-btn" data-filter="Wicketkeeper">Wicketkeepers</button>
+                </div>
+                <div class="player-grid" id="player-grid"></div>
+            </div>
+        </section>
+
+        <!-- RCB TV -->
+        <section id="rcb-tv">
+            <div class="container">
+                <h2 class="section-title">RCB Insider</h2>
+                <div class="video-grid">
+                    <div class="video-card">
+                        <div class="video-thumbnail-container">
+                            <iframe src="https://www.youtube.com/embed/MRc8u7QF-8A" allowfullscreen></iframe>
+                        </div>
+                        <h3 class="video-title">Bold Diaries: Mr Nags meets Virat Kohli</h3>
+                    </div>
+                    <div class="video-card">
+                        <div class="video-thumbnail-container">
+                            <iframe src="https://www.youtube.com/embed/pRVYKdpfDl8" allowfullscreen></iframe>
+                        </div>
+                        <h3 class="video-title">Mr. Nags Gatecrashes RCB’s IPL 2025 Trophy Celebrations</h3>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Schedule -->
+        <section id="schedule">
+            <div class="container">
+                <h2 class="section-title">IPL 2025 Fixtures</h2>
+                <div class="schedule-list" id="schedule-list"></div>
+            </div>
+        </section>
+
+        <!-- News -->
+        <section id="news">
+            <div class="container">
+                <h2 class="section-title">Latest News</h2>
+                <div class="news-grid">
+                    <!-- News Cards -->
+                </div>
+            </div>
+        </section>
+        
+        <!-- Shop -->
+        <section id="shop">
+            <div class="container">
+                <h2 class="section-title">Official Merchandise</h2>
+                <div class="merchandise-grid">
+                    <!-- Merch Cards -->
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <ul class="footer-links">
+                <li><a href="#">About Us</a></li>
+                <li><a href="#">Contact</a></li>
+                <li><a href="#">Privacy Policy</a></li>
+                <li><a href="#">Terms of Service</a></li>
+            </ul>
+            <p>&copy; 2025 Royal Challengers Sports Pvt Ltd. All Rights Reserved.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
